@@ -1,0 +1,379 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		543CEF4223D152870073B032 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CEF4123D152870073B032 /* WeatherData.swift */; };
+		543CEF4823D166C10073B032 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 543CEF4723D166C10073B032 /* WeatherModel.swift */; };
+		5449D5FC23CFAD4400CD1084 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449D5FB23CFAD4400CD1084 /* AppDelegate.swift */; };
+		5449D5FE23CFAD4400CD1084 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449D5FD23CFAD4400CD1084 /* SceneDelegate.swift */; };
+		5449D60023CFAD4400CD1084 /* ClimaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449D5FF23CFAD4400CD1084 /* ClimaViewController.swift */; };
+		5449D60323CFAD4400CD1084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5449D60123CFAD4400CD1084 /* Main.storyboard */; };
+		5449D60523CFAD4500CD1084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5449D60423CFAD4500CD1084 /* Assets.xcassets */; };
+		5449D60823CFAD4500CD1084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5449D60623CFAD4500CD1084 /* LaunchScreen.storyboard */; };
+		5449D62723D10E7100CD1084 /* WeatherStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5449D62623D10E7100CD1084 /* WeatherStation.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		543CEF4123D152870073B032 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		543CEF4723D166C10073B032 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		5449D5F823CFAD4400CD1084 /* Clima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clima.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5449D5FB23CFAD4400CD1084 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5449D5FD23CFAD4400CD1084 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5449D5FF23CFAD4400CD1084 /* ClimaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimaViewController.swift; sourceTree = "<group>"; };
+		5449D60223CFAD4400CD1084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5449D60423CFAD4500CD1084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5449D60723CFAD4500CD1084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5449D60923CFAD4500CD1084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5449D62623D10E7100CD1084 /* WeatherStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherStation.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5449D5F523CFAD4400CD1084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5449D5EF23CFAD4400CD1084 = {
+			isa = PBXGroup;
+			children = (
+				5449D5FA23CFAD4400CD1084 /* Clima */,
+				5449D5F923CFAD4400CD1084 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5449D5F923CFAD4400CD1084 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5449D5F823CFAD4400CD1084 /* Clima.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5449D5FA23CFAD4400CD1084 /* Clima */ = {
+			isa = PBXGroup;
+			children = (
+				5449D5FB23CFAD4400CD1084 /* AppDelegate.swift */,
+				5449D5FD23CFAD4400CD1084 /* SceneDelegate.swift */,
+				5449D62823D10E7700CD1084 /* Model */,
+				5449D62923D10E7D00CD1084 /* View */,
+				5449D62A23D10E8500CD1084 /* Controller */,
+				5449D60423CFAD4500CD1084 /* Assets.xcassets */,
+				5449D60623CFAD4500CD1084 /* LaunchScreen.storyboard */,
+				5449D60923CFAD4500CD1084 /* Info.plist */,
+			);
+			path = Clima;
+			sourceTree = "<group>";
+		};
+		5449D62823D10E7700CD1084 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5449D62623D10E7100CD1084 /* WeatherStation.swift */,
+				543CEF4123D152870073B032 /* WeatherData.swift */,
+				543CEF4723D166C10073B032 /* WeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5449D62923D10E7D00CD1084 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5449D60123CFAD4400CD1084 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5449D62A23D10E8500CD1084 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5449D5FF23CFAD4400CD1084 /* ClimaViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5449D5F723CFAD4400CD1084 /* Clima */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5449D60C23CFAD4500CD1084 /* Build configuration list for PBXNativeTarget "Clima" */;
+			buildPhases = (
+				5449D5F423CFAD4400CD1084 /* Sources */,
+				5449D5F523CFAD4400CD1084 /* Frameworks */,
+				5449D5F623CFAD4400CD1084 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clima;
+			productName = Clima;
+			productReference = 5449D5F823CFAD4400CD1084 /* Clima.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5449D5F023CFAD4400CD1084 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Shikhar Kumar";
+				TargetAttributes = {
+					5449D5F723CFAD4400CD1084 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5449D5F323CFAD4400CD1084 /* Build configuration list for PBXProject "Clima" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5449D5EF23CFAD4400CD1084;
+			productRefGroup = 5449D5F923CFAD4400CD1084 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5449D5F723CFAD4400CD1084 /* Clima */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5449D5F623CFAD4400CD1084 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5449D60823CFAD4500CD1084 /* LaunchScreen.storyboard in Resources */,
+				5449D60523CFAD4500CD1084 /* Assets.xcassets in Resources */,
+				5449D60323CFAD4400CD1084 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5449D5F423CFAD4400CD1084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5449D60023CFAD4400CD1084 /* ClimaViewController.swift in Sources */,
+				543CEF4223D152870073B032 /* WeatherData.swift in Sources */,
+				5449D62723D10E7100CD1084 /* WeatherStation.swift in Sources */,
+				5449D5FC23CFAD4400CD1084 /* AppDelegate.swift in Sources */,
+				543CEF4823D166C10073B032 /* WeatherModel.swift in Sources */,
+				5449D5FE23CFAD4400CD1084 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5449D60123CFAD4400CD1084 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5449D60223CFAD4400CD1084 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5449D60623CFAD4500CD1084 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5449D60723CFAD4500CD1084 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5449D60A23CFAD4500CD1084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5449D60B23CFAD4500CD1084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5449D60D23CFAD4500CD1084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJTS8L78K6;
+				INFOPLIST_FILE = Clima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumarshikhar.Clima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5449D60E23CFAD4500CD1084 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BJTS8L78K6;
+				INFOPLIST_FILE = Clima/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kumarshikhar.Clima;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5449D5F323CFAD4400CD1084 /* Build configuration list for PBXProject "Clima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5449D60A23CFAD4500CD1084 /* Debug */,
+				5449D60B23CFAD4500CD1084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5449D60C23CFAD4500CD1084 /* Build configuration list for PBXNativeTarget "Clima" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5449D60D23CFAD4500CD1084 /* Debug */,
+				5449D60E23CFAD4500CD1084 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5449D5F023CFAD4400CD1084 /* Project object */;
+}
